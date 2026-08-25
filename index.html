@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Recrutamento Online</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+      <header>
+        <h1>Recrutamento online</h1>
+      </header> 
+      <main>
+        <section>
+            <h2>Cadastre seu Currículo</h2>
+            <form action="#" method="get">
+                <p>Preencha seu formulário para se candidatar à vaga</p>
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    <div>
+                        <label for="nome_id">  Nome completo:</label>
+                        <input id="nome_id" name="Nome" >
+                    </div>
+                    <div>
+                        <label for="telefone_id">Telefone: </label> </label>
+                        <input id="telefone_id" name="telefone" type="tel">
+                    </div>
+                    <div>
+                        <label for="email_id">Email: </label> </label>
+                        <input id="email_id" name="email" type="email">
+                    </div>
+                    <div>
+                        <label for="data_nasc_id">Data de nascimento: </label> </label>
+                        <input id="data_nasc_id" name="data_nasc" type="date">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Endereço</legend>
+                     <div>
+                        <label for="logradouro_id">logradouro: </label> </label>
+                        <input id="logradouro_id" name="logradouro" type="text">
+                    </div>
+                     <div>
+                        <label for="cidade_id">cidade-uf: </label> </label>
+                        <input id="cidade_id" name= "cidade" type="text">
+                    </div>
+                     <div>
+                        <label for="numero_id">numero: </label> </label>
+                        <input id="numero_id" name="numero" type="number">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Bibliografia</legend>
+                     <div>
+                        <label for="resumo_id">Fale sobre você: </label> </label>
+                        <textarea id="resumo_id" 
+                                  name="resumo" 
+                                  rows="5" 
+                                  cols="100"></textarea>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Nivel pretendido</legend>
+                    <div>
+                        <input id="estagiario_id"
+                               name="nivel"
+                               type="radio"
+                               value="estagiario">
+                               <label for="estagiario_id">Estagiario </label>
+                    </div>
+                    <div>
+                        <input id="junior_id"
+                               name="nivel"
+                               type="radio"
+                               value="junior">
+                        <label for="junior_id">Júnior</label>
+                    </div> 
+                </fieldset>
+                <fieldset>
+                    <legend>Tecnologias</legend>
+                    <div>
+                        <input id="tec_html_id"
+                               name="tecnologia"
+                               type="checkbox"
+                               value="html">
+                        <label for="tec_html_id"> HTML</label>
+                    </div>
+                    <div>
+                        <input id="tec_css_id"
+                               name="tecnologia"
+                               type="checkbox"
+                               value="css">
+                        <label for="tec_css_id"> CSS</label>
+                    </div>
+                    <div>
+                        <input id="tec_js_id"
+                               name="tecnologia"
+                               type="checkbox"
+                               value="js">
+                        <label for="tec_js_id"> Javascript</label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Grau de instrução</legend>
+                    <div>
+                        <label for="escolaridade_id">Escolaridade:</label>
+                        <select id="escolaridade_id" name="escolaridade">
+                            <option value="medio">Ensino Médio</option>
+                            <option value="graduacao">Graduação</option>
+                            <option value="pos">Pós-graduação</option>
+                        </select>
+                    </div>
+                </fieldset>
+                <div>
+                    <button type="reset">Limpar dados</button>
+                    <button type="submit">Enviar candidatura</button>
+                </div>
+            </form>
+        </section>
+      </main>
+      <footer>
+        <p> Todos os direitos reservados</p>
+      </footer> 
+    </body>
+</html>
