@@ -1,0 +1,52 @@
+{
+  "args": {
+
+  },
+  "data": {
+
+  },
+  "files": {
+    "": "data:application/octet-stream;base64,"
+  },
+  "form": {
+    "nome": "asasdasa",
+    "telefone": "asasadas",
+    "email": "ivan.thiago@outlook.com",
+    "data_nasc": "",
+    "logradouro": "asdas",
+    "cidade": "asdasd",
+    "uf": "PR",
+    "numero": "165416444",
+    "resumo": "asdasda",
+    "nivel": "estagiario",
+    "tecnologia": [
+      [
+        "html",
+        "css"
+      ],
+      "js"
+    ],
+    "escolaridade": "medio"
+  },
+  "headers": {
+    "host": "postman-echo.com",
+    "sec-fetch-dest": "document",
+    "accept-encoding": "gzip, br",
+    "priority": "u=0, i",
+    "accept-language": "en-US",
+    "content-length": "1601",
+    "cache-control": "max-age=0",
+    "upgrade-insecure-requests": "1",
+    "content-type": "multipart/form-data; boundary=----WebKitFormBoundarylbGUT4Le2lPvSgL7",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.136.1 Chrome/148.0.7778.280 Electron/42.10.0 Safari/537.36",
+    "origin": "null",
+    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+    "sec-fetch-site": "cross-site",
+    "sec-fetch-mode": "navigate",
+    "sec-fetch-user": "?1",
+    "x-forwarded-proto": "https",
+    "cookie": "__cf_bm=LHXY1.biFivrCgBUKHcUdtnibhtMnQsduj6PzdFKADc-1788560344.9085727-1.0.1.1-66Kn2IZUkuGin8fU5bwc6W7tTV_UT8yMyxwPgV0qZVw.fgc4sQxfOmiROQw1Y5S9JLI81TfL3tgdD.jGJLNyAOW0nwq1_JHbYfFew4ghhvG3oJwA7_4bIn8UmS3rXEph; _cfuvid=pQgnUXePVSyIJhSW8Ifh9uN1Ozf.eB6zY1z3otwxFrc-1788560344.9085727-1.0.1.1-KeUi5BNowaLKIp1_jkoiCO6bxn9VHXUjwJjbHaZ46kY"
+  },
+  "json": null,
+  "url": "https://postman-echo.com/post"
+}
